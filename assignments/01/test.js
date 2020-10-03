@@ -13,6 +13,6 @@ interface Dependency {
 
 */
 
-module.exports = function test({ entryFile }) /*: Module */ {
+module.exports = function test({ entryFile }) /*: Module | Promise<Module> */ {
   // returns the module graph
 };
