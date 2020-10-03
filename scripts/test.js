@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { retrocycle, decycle } = require('cycle');
 const chalk = require('chalk');
 
 const [assignmentNumber] = process.argv.slice(2);
