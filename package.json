@@ -6,7 +6,8 @@
   "author": "Li Hau Tan <tanlh@seagroup.com>",
   "license": "MIT",
   "scripts": {
-    "verify-01": "node scripts/test.js 01"
+    "verify-01": "node scripts/test.js 01",
+    "verify-02": "node scripts/test.js 02"
   },
   "dependencies": {
     "chalk": "^4.1.0"

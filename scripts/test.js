@@ -17,6 +17,7 @@ if (fixtures.find((fixture) => fixture.endsWith('.solo'))) {
   let passAll = true;
   for (const fixture of fixtures) {
     const entryFile = path.join(fixturePath, fixture, 'code/main.js');
+    const outputFolder = path.join(fixturePath, fixture, 'output');
     const expectedFile = path.join(fixturePath, fixture, 'expected.js');
     const errorFile = path.join(fixturePath, fixture, 'error.js');
     const [title] = fs
@@ -28,6 +29,7 @@ if (fixtures.find((fixture) => fixture.endsWith('.solo'))) {
     try {
       result = await testImplementation({
         entryFile,
+        outputFolder,
       });
     } catch (_error) {
       error = _error;
