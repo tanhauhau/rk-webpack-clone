@@ -2,8 +2,8 @@
   "name": "rk-webpack-clone",
   "private": true,
   "version": "1.0.0",
-  "repository": "gitlab@git.garena.com:tanlh/rk-webpack-clone.git",
-  "author": "Li Hau Tan <tanlh@seagroup.com>",
+  "repository": "git@github.com:tanhauhau/rk-webpack-clone.git",
+  "author": "Li Hau Tan <lhtan93@gmail.com>",
   "license": "MIT",
   "scripts": {
     "verify-01": "node scripts/test.js 01",
